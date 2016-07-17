@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mapa de Avances"
+        android:textColor="@color/colorAccent"
+
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/p1"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:id="@+id/imageView" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/btn_t1"
+        android:background="#00ffffff"
+        android:id="@+id/btn_t1"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/btn_t2"
+        android:background="#00ffffff"
+        android:id="@+id/btn_t2"
+        android:layout_below="@+id/btn_t1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/btn_t3"
+        android:background="#00ffffff"
+        android:id="@+id/btn_t3"
+        android:layout_marginTop="108dp"
+        android:layout_below="@+id/btn_t2"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/btn_t4"
+        android:background="#00ffffff"
+        android:id="@+id/btn_t4"
+        android:layout_alignTop="@+id/btn_t3"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/btn_t5"
+        android:background="#00ffffff"
+        android:id="@+id/btn_t5"
+        android:layout_above="@+id/btn_t3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp" />
+
+    <TableLayout
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:background="@color/bgTable"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="40dp"
+        >
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bgTableDark"
+            android:layout_below="@+id/imageView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+            <TextView
+                android:layout_height="wrap_content"
+                android:text="Puntaje Total: "
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:padding="20px"
+                android:layout_below="@+id/imageView"
+                android:layout_toLeftOf="@+id/btn_t2"
+                android:layout_toStartOf="@+id/btn_t2" />
+            <TextView
+                android:layout_height="wrap_content"
+                android:text="10"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:padding="20px"
+                android:layout_gravity="end"
+                android:textAlignment="textEnd"
+                android:layout_below="@+id/imageView"
+                android:layout_toLeftOf="@+id/btn_t2"
+                android:layout_toStartOf="@+id/btn_t2" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="Puntaje necesario para el próximo Tema: "
+                android:textColor="@color/colorPrimary"
+                android:textSize="12dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:layout_below="@+id/imageView"
+                android:layout_toLeftOf="@+id/btn_t2"
+                android:layout_toStartOf="@+id/btn_t2" />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="70dp"
+                android:text="10"
+                android:textColor="@color/colorPrimary"
+                android:textSize="14dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:layout_gravity="end"
+                android:textAlignment="textEnd"
+                android:layout_below="@+id/imageView"
+                android:layout_toLeftOf="@+id/btn_t2"
+                android:layout_toStartOf="@+id/btn_t2" />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:layout_margin="0dp"
+                android:background="@color/btn1"
+                android:textColor="#fff"
+                android:text="Continuar"
+                />
+        </TableRow>
+    </TableLayout>
+
+
+</RelativeLayout>
+</ScrollView>

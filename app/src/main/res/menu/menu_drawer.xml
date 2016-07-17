@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_inicio"
+            android:checked="true"
+            android:icon="@drawable/inicio"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/item_tema1"
+            android:icon="@drawable/indicador_derecho"
+            android:title="Tema 1" />
+        <item
+            android:id="@+id/item_tema2"
+            android:icon="@drawable/indicador_derecho"
+            android:title="Tema 2" />
+        <item
+            android:id="@+id/item_tema3"
+            android:icon="@drawable/indicador_derecho"
+            android:title="Tema 3" />
+        <item
+            android:id="@+id/item_tema4"
+            android:icon="@drawable/indicador_derecho"
+            android:title="Tema 4" />
+        <item
+            android:id="@+id/item_tema5"
+            android:icon="@drawable/indicador_derecho"
+            android:title="Tema 5" />
+        <item
+            android:id="@+id/item_calificaciones"
+            android:icon="@drawable/categorias"
+            android:title="Calificaciones" />
+        <item
+            android:id="@+id/item_configuracion"
+            android:icon="@drawable/configuracion"
+            android:title="Configuracion" />
+    </group>
+
+</menu>
