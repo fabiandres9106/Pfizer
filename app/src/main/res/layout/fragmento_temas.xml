@@ -9,10 +9,40 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:background="#00ffffff"
+            android:scaleType="fitXY"
             android:src="@drawable/list_btn_t1"
             android:contentDescription="Boton Tema 1"/>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:background="#00ffffff"
+            android:scaleType="fitXY"
+            android:src="@drawable/list_btn_t2"
+            android:contentDescription="Boton Tema 2"/>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:background="#00ffffff"
+            android:scaleType="fitXY"
+            android:src="@drawable/list_btn_t3"
+            android:contentDescription="Boton Tema 3"/>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:background="#00ffffff"
+            android:scaleType="fitXY"
+            android:src="@drawable/list_btn_t4"
+            android:contentDescription="Boton Tema 4"/>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:background="#00ffffff"
+            android:scaleType="fitXY"
+            android:src="@drawable/list_btn_t5"
+            android:contentDescription="Boton Tema 5"/>
     </LinearLayout>
 
 </ScrollView>

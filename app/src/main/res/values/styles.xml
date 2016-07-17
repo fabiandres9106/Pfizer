@@ -23,4 +23,21 @@
         <item name="android:padding">5px</item>
     </style>
 
+    <style name="TitTabCalif">
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="ItemTabCalif1">
+        <item name="android:textAlignment">center</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:background">@color/bgTable</item>
+    </style>
+    <style name="ItemTabCalif2">
+        <item name="android:textAlignment">center</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:background">@color/bgTableDark</item>
+    </style>
+
 </resources>
